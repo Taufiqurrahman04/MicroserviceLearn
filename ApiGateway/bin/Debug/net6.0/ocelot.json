@@ -1,0 +1,187 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5001"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/cv",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/mycv",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7135
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/mycv/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7135
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/mycv",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7135
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/{id}",
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamPathTemplate": "/api/mycv/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7135
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/api/mycv/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7135
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/work",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/workexperience",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/work/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/workexperience/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/work",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/workexperience",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/work/{id}",
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamPathTemplate": "/api/workexperience/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/work/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/api/workexperience/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/work",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/myworkexperience",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/work/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/myworkexperience/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/work",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/myworkexperience",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/work/{id}",
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamPathTemplate": "/api/myworkexperience/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/cv/work/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/api/myworkexperience/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7091
+        }
+      ]
+    }
+  ]
+}
